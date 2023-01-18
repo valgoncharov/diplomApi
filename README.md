@@ -42,25 +42,10 @@
 gradle clean test
 ```
 
-## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/15-onemanpara-hw27-apiPart/)
+## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/diplomAPI_Goncharov/)
 
 *Для запуска сборки необходимо нажать кнопку <code><strong>*Собрать сейчас*</strong></code>.*
 
 <p align="center">
-  <img src="images/screens/Jenkins.jpg" alt="Jenkins" width="800">
-</p>
-
-
-## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/15-onemanpara-hw27-apiPart/allure)
-
-### Главное окно
-
-<p align="center">
-  <img src="images/screens/Allure_report.jpg" alt="Allure_report" width="800">
-</p>
-
-### Окно с тест-кейсами
-
-<p align="center">
-  <img src="images/screens/Allure_report2.jpg" alt="Allure_report2" width="800">
+  <img src="Images/Jenkins01.jpg" alt="Jenkins" width="800">
 </p>
