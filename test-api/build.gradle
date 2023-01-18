@@ -18,8 +18,9 @@ compileTestJava {
     options.encoding = 'UTF-8'
 }
 
-def allureVersion = "2.20.0",
-    assertJVersion = "3.23.1"
+def allureVersion = "2.20.1",
+    assertJVersion = "3.23.1",
+    slf4jVersion = "1.7.32"
 
 allure {
     report {
@@ -42,10 +43,19 @@ dependencies {
             "io.qameta.allure:allure-rest-assured:$allureVersion",
             "com.fasterxml.jackson.core:jackson-databind:2.14.1",
             "org.assertj:assertj-core:$assertJVersion",
-            "org.junit.jupiter:junit-jupiter:5.9.0"
+            "org.junit.jupiter:junit-jupiter:5.9.0",
+            "org.slf4j:slf4j-simple:$slf4jVersion"
     )
 }
 
-test {
+tasks.withType(Test) {
+    systemProperties(System.getProperties())
     useJUnitPlatform()
+
+    testLogging {
+        lifecycle {
+            events "started", "skipped", "failed", "standard_error", "standard_out"
+            exceptionFormat "short"
+        }
+    }
 }

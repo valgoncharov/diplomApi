@@ -18,7 +18,7 @@ public class UsersInfoTests {
     @Test
     void createUserTest() {
         CreateUserModel user = new CreateUserModel();
-        user.setName("Mikhail");
+        user.setName("Valentine");
         user.setJob("QA-Engineer");
         CreateUserResponseModel response = given()
                 .spec(userDataRequestSpec)
@@ -28,7 +28,7 @@ public class UsersInfoTests {
                 .then()
                 .spec(userDataResponseSpec)
                 .extract().as(CreateUserResponseModel.class);
-        assertThat(response.getName()).isEqualTo("Mikhail");
+        assertThat(response.getName()).isEqualTo("Valentine");
         assertThat(response.getJob()).isEqualTo("QA-Engineer");
     }
 
