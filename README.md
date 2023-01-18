@@ -16,7 +16,7 @@
 
 <p  align="center"> 
 
-<img width="5%" title="Java" src="Image/Java.svg">
+<img width="5%" title="Java" src="src/Image/Java.svg">
 <img width="5%" title="Selenoid" src="Image/Selenoid.svg">
 <img width="5%" title="Selenide" src="Image/Selenide.svg">
 <img width="5%" title="Gradle" src="Image/Gradle.svg">
@@ -36,7 +36,7 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=valgoncharov&repo=final_project_ui)](https://github.com/valgoncharov/final_project_ui)
 
 ### :heavy_check_mark: API Autotests for reqres.in website
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=valgoncharov&repo=final_project_api)](https://github.com/valgoncharov/diplomApi)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=valgoncharov&repo=diplomApi)](https://github.com/valgoncharov/diplomApi)
 
 ### :heavy_check_mark: Mobile Autotests for Wikipedia app
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=valgoncharov&repo=final_project_mobile)](https://github.com/valgoncharovB/final_project_mobile)
