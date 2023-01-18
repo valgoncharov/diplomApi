@@ -42,10 +42,10 @@
 gradle clean test
 ```
 
-## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/diplomAPI_Goncharov/)
+## <img width="4%" title="Jenkins" src="Image/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/diplomAPI_Goncharov/)
 
 *Для запуска сборки необходимо нажать кнопку <code><strong>*Собрать сейчас*</strong></code>.*
 
 <p align="center">
-  <img src="Images/Jenkins01.jpg" alt="Jenkins" width="800">
+  <img src="Image/Jenkins01.jpg" alt="Jenkins" width="800">
 </p>
