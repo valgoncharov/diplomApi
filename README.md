@@ -16,27 +16,51 @@
 
 <p  align="center"> 
 
-<img width="5%" title="Java" src="src/Image/Java.svg">
-<img width="5%" title="Selenoid" src="Image/Selenoid.svg">
-<img width="5%" title="Selenide" src="Image/Selenide.svg">
+<img width="5%" title="Java" src="Image/Java.svg">
 <img width="5%" title="Gradle" src="Image/Gradle.svg">
 <img width="5%" title="Junit5" src="Image/Junit5.svg">
 <img width="5%" title="Allure Report" src="Image/Allure.svg">
-<img width="5%" title="Allure TestOps" src="Image/Allure_TO.svg">
 <img width="5%" title="Jenkins" src="Image/Jenkins.svg">
-<img width="5%" title="Appium" src="Image/Appium.svg">
-<img width="5%" title="Browserstack" src="Image/Browserstack.svg">
 <img width="5%" title="RestAssured" src="Image/RestAssured.svg">
-<img width="5%" title="Jira" src="Image/Jira.svg">
 
 </p>
 
-## My projects:
-### :heavy_check_mark: UI Autotests for bookcity.kz web store
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=valgoncharov&repo=final_project_ui)](https://github.com/valgoncharov/final_project_ui)
+## :bookmark_tabs: Реализованы проверки
 
-### :heavy_check_mark: API Autotests for reqres.in website
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=valgoncharov&repo=diplomApi)](https://github.com/valgoncharov/diplomApi)
+>- [x] *Позитивная регистрация пользователя*
+>- [x] *Регистрация пользователя без доступа*
+>- [x] *Негативный тест на регистрацию (без пароля)*
+>- [x] *Создание нового пользователя*
+>- [x] *Запрос данных о списке пользователей*
+>- [x] *Запрос данных о конкретном пользователе*
 
-### :heavy_check_mark: Mobile Autotests for Wikipedia app
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=valgoncharov&repo=final_project_mobile)](https://github.com/valgoncharovB/final_project_mobile)
+## :computer: Запуск тестов из терминала
+
+Для запуска тестов используйте команду:
+
+```bash
+gradle clean test
+```
+
+## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/15-onemanpara-hw27-apiPart/)
+
+*Для запуска сборки необходимо нажать кнопку <code><strong>*Собрать сейчас*</strong></code>.*
+
+<p align="center">
+  <img src="images/screens/Jenkins.jpg" alt="Jenkins" width="800">
+</p>
+
+
+## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/15-onemanpara-hw27-apiPart/allure)
+
+### Главное окно
+
+<p align="center">
+  <img src="images/screens/Allure_report.jpg" alt="Allure_report" width="800">
+</p>
+
+### Окно с тест-кейсами
+
+<p align="center">
+  <img src="images/screens/Allure_report2.jpg" alt="Allure_report2" width="800">
+</p>
