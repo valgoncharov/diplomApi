@@ -16,7 +16,7 @@
 
 <p  align="center"> 
 
-<img width="5%" title="Java" test-api="Image/Java.svg">
+<img width="5%" title="Java" src="Image/Java.svg">
 <img width="5%" title="Selenoid" src="Image/Selenoid.svg">
 <img width="5%" title="Selenide" src="Image/Selenide.svg">
 <img width="5%" title="Gradle" src="Image/Gradle.svg">
